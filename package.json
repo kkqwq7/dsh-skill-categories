@@ -1,0 +1,62 @@
+{
+  "name": "dsh-skill-categories",
+  "version": "0.1.0",
+  "private": false,
+  "description": "DSH 技能分类中心：把全部技能按分类折叠浏览，支持搜索、来源筛选、拖拽归类与分类管理，并与 skill-hub 共享分类数据。",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kkqwq7/dsh-skill-categories.git"
+  },
+  "homepage": "https://github.com/kkqwq7/dsh-skill-categories#readme",
+  "bugs": {
+    "url": "https://github.com/kkqwq7/dsh-skill-categories/issues"
+  },
+  "author": "kkqwq7",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "LICENSE",
+    "screenshots.json",
+    "assets/screenshots/*.png"
+  ],
+  "dsh": {
+    "engines": {
+      "dsh": ">=0.2.1-rc.3"
+    },
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-layout"
+      ]
+    }
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "skills",
+    "categories",
+    "skill-hub"
+  ],
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  }
+}

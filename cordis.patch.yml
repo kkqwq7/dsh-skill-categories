@@ -1,0 +1,4 @@
+# 技能分类中心：向 desktop profile 插入一行插件。
+- insert:
+    - id: skill-categories
+      name: 'dsh-skill-categories'

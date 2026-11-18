@@ -1,0 +1,9 @@
+{
+  "meta": {
+    "title": "Skill Categories",
+    "description": "Browse all skills grouped into collapsible categories, with search, drag-to-classify, category management and skill-hub sync."
+  },
+  "entry": {
+    "label": "Skill Categories"
+  }
+}

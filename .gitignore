@@ -1,0 +1,13 @@
+node_modules/
+dist/
+*.zip
+video-kit/
+DSH技能分类中心-视频素材包/
+trial-*.png
+final-*.png
+_chrome*/
+*.log
+*.bak
+*.tmp
+.DS_Store
+Thumbs.db
