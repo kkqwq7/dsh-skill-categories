@@ -45,15 +45,15 @@ plugin_manager set_plugin target=include:skill-categories enabled=true
 
 如果只更新了 Client 端的 `client.js` / 样式，在 DSH 页面按 `Ctrl+R` 刷新渲染器即可。
 
-### 从 GitHub / npm 安装（发布后）
+### 从 GitHub Release 安装（发布后）
 
-把 `target` 换成发布包名或 Release tarball 地址，例如：
+从 [v0.1.0 Release](https://github.com/kkqwq7/dsh-skill-categories/releases/tag/v0.1.0) 下载 `dsh-skill-categories-0.1.0.tgz`，然后在 DSH 中安装：
 
 ```text
-plugin_manager install_bundle target=<包名或 tarball 地址>
+plugin_manager install_bundle target=<下载后的 dsh-skill-categories-0.1.0.tgz 路径>
 ```
 
-具体安装入口以你当前 DSH 版本的插件管理器为准；插件本身不带安装器，也不会自动安装其他技能。
+也可以直接把 GitHub Release 的 tarball 地址作为 `target`。具体安装入口以你当前 DSH 版本的插件管理器为准；插件本身不带安装器，也不会自动安装其他技能。
 
 ## 4. 使用方法
 

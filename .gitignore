@@ -1,6 +1,7 @@
 node_modules/
 dist/
 *.zip
+*.tgz
 video-kit/
 DSH技能分类中心-视频素材包/
 trial-*.png
